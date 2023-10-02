@@ -4,6 +4,16 @@
 
 Bu projeyi çalıştırmak ve geliştirmek için aşağıdaki adımları izleyin.
 
+## Sanal ortam oluşturmak için aşağıdaki komutu çalıştırın:
+
+```bash
+python -m venv .venv
+```
+## Sanal ortamı çalıştırmak için aşağıdaki komutu çalıştırın:
+```bash
+.venv\Scripts\activate
+```
+
 ## Proje bağımlılıklarını yüklemek için aşağıdaki komutu çalıştırın:
 
 ```bash
