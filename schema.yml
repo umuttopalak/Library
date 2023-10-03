@@ -7,6 +7,7 @@ paths:
     get:
       operationId: api_author_list
       description: A simple viewset for viewing authors
+      summary: Returns list of Authors
       tags:
       - Authors
       security:
@@ -25,6 +26,7 @@ paths:
     post:
       operationId: api_author_create
       description: A simple viewset for viewing authors
+      summary: Creates Author
       tags:
       - Authors
       requestBody:
@@ -54,6 +56,7 @@ paths:
     get:
       operationId: api_author_retrieve
       description: A simple viewset for viewing authors
+      summary: Returns Author
       parameters:
       - in: path
         name: id
@@ -77,6 +80,7 @@ paths:
     put:
       operationId: api_author_update
       description: A simple viewset for viewing authors
+      summary: Updates Author
       parameters:
       - in: path
         name: id
@@ -112,6 +116,7 @@ paths:
     delete:
       operationId: api_author_destroy
       description: A simple viewset for viewing authors
+      summary: Removes Author
       parameters:
       - in: path
         name: id
@@ -132,6 +137,7 @@ paths:
     get:
       operationId: api_book_list
       description: A simple viewset for viewing books
+      summary: Returns list of Books
       tags:
       - Books
       security:
@@ -150,6 +156,7 @@ paths:
     post:
       operationId: api_book_create
       description: A simple viewset for viewing books
+      summary: Creates Book
       tags:
       - Books
       requestBody:
@@ -179,6 +186,7 @@ paths:
     get:
       operationId: api_book_retrieve
       description: A simple viewset for viewing books
+      summary: Returns Book
       parameters:
       - in: path
         name: id
@@ -202,6 +210,7 @@ paths:
     put:
       operationId: api_book_update
       description: A simple viewset for viewing books
+      summary: Updates Book
       parameters:
       - in: path
         name: id
@@ -237,6 +246,7 @@ paths:
     delete:
       operationId: api_book_destroy
       description: A simple viewset for viewing books
+      summary: Removes Book
       parameters:
       - in: path
         name: id
@@ -257,6 +267,7 @@ paths:
     get:
       operationId: api_genre_list
       description: A simple viewset for viewing genres
+      summary: Returns list of Genres
       tags:
       - Genres
       security:
@@ -275,6 +286,7 @@ paths:
     post:
       operationId: api_genre_create
       description: A simple viewset for viewing genres
+      summary: Creates Genre
       tags:
       - Genres
       requestBody:
@@ -304,6 +316,7 @@ paths:
     get:
       operationId: api_genre_retrieve
       description: A simple viewset for viewing genres
+      summary: Returns Genre
       parameters:
       - in: path
         name: id
@@ -327,6 +340,7 @@ paths:
     put:
       operationId: api_genre_update
       description: A simple viewset for viewing genres
+      summary: Updates Genre
       parameters:
       - in: path
         name: id
@@ -362,6 +376,7 @@ paths:
     delete:
       operationId: api_genre_destroy
       description: A simple viewset for viewing genres
+      summary: Removes Genre
       parameters:
       - in: path
         name: id
