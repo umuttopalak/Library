@@ -43,6 +43,11 @@ docker build -t django-library-app .
 docker run -p 8000:8000 django-library-app
 ```
 
+## To run with docker-compose;
+```bash
+docker-compose up
+```
+
 You can view the application by going to `http://localhost:8000` in your browser.
 
 
