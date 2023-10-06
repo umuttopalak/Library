@@ -1,26 +1,24 @@
-# Django Basit Kütüphane Uygulaması
+# Django Basic Library App
 
-## Başlangıç
+Follow the steps below to run and develop this project.
 
-Bu projeyi çalıştırmak ve geliştirmek için aşağıdaki adımları izleyin.
-
-## Sanal ortam oluşturmak için aşağıdaki komutu çalıştırın:
+## Run the following command to create a virtual environment:
 
 ```bash
 python -m venv .venv
 ```
-## Sanal ortamı çalıştırmak için aşağıdaki komutu çalıştırın:
+## Run the following command to activate virtual environment:
 ```bash
 .venv\Scripts\activate
 ```
 
-## Proje bağımlılıklarını yüklemek için aşağıdaki komutu çalıştırın:
+## Run the following command to install project dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Veritabanını oluşturmak için aşağıdaki komutu çalıştırın:
+## Run the following command to create the database:
 
 ```bash
 python manage.py makemigrations app
@@ -30,21 +28,21 @@ python manage.py makemigrations app
 python manage.py migrate
 ```
 
-### Projeyi başlatmak için aşağıdaki komutu çalıştırın:
-## Sanal ortamda çalıştırmak için;
+# Run the following command to start the project:
+## To run in a virtual environment;
 ```bash
 python manage.py runserver
 ```
 
-## Docker üzerinden çalıştırmak için;
+## To run with docker;
 ```bash
 docker build -t django-library-app .   
 ```
-
+    
 ```bash
 docker run -p 8000:8000 django-library-app
 ```
 
-Tarayıcınızda `http://localhost:8000` adresine giderek uygulamayı görüntüleyebilirsiniz.
+You can view the application by going to `http://localhost:8000` in your browser.
 
 
